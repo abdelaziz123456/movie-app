@@ -1,0 +1,17 @@
+.movie{
+    min-height: 400px;
+   
+   
+    
+    
+}
+.well{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(98, 97, 97, 0.37);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
