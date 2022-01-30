@@ -67,7 +67,7 @@ function getMovie() {
   let movieId = sessionStorage.getItem("movieId");
   console.log(movieId);
   axios
-    .get("http://www.omdbapi.com/?&apikey=d9a55d4d&i=" + movieId)
+    .get("https://www.omdbapi.com/?&apikey=d9a55d4d&i=" + movieId)
     .then((response) => {
       //alert badge appear in case film not found
 
